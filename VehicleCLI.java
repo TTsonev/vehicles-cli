@@ -69,7 +69,7 @@ public class VehicleCLI {
 
 				case "oldest":
 					var oldest = vm.oldest();
-					for (Integer i : oldest){
+					for (Integer i : oldest) {
 						System.out.println("Id: " + i);
 					}
 					break;
